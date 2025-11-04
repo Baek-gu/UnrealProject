@@ -16,8 +16,8 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Item|Component")
 	USphereComponent* ExplosionCollision;
 
-	// 폭발까지 걸리는 시간 (5초) ddasdasdasd
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mine")
+	// 폭발까지 걸리는 시간 (5초) ddasdasdasdasdasdasd
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Categorya = "Mine")
 	float ExplosionDelay;
 	// 폭발 범위
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mine")
